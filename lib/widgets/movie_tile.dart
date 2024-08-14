@@ -5,8 +5,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 
 class MovieTile extends StatelessWidget {
   final Movie movie;
-
-  MovieTile({required this.movie});
+  const MovieTile({super.key, required this.movie});
 
   @override
   Widget build(BuildContext context) {
