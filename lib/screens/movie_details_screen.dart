@@ -82,7 +82,7 @@ class _MovieDetailsScreenState extends State<MovieDetailsScreen> {
               ),
               const SizedBox(height: 20),
 
-              // Watch Trailer Button
+              // botton para ver eñ trailer
               ElevatedButton(
                 onPressed: () {
                   if (trailerUrl != null) {

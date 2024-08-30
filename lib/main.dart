@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Movie App',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
           useMaterial3: true,
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
             bodyLarge: TextStyle(fontSize: 16),
           ),
         ),
-        home: HomeScreen(),
+        home: const HomeScreen(),
       ),
     );
   }

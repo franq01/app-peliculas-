@@ -10,7 +10,7 @@ class MovieSearchDelegate extends SearchDelegate {
     final query = this.query;
 
     if (query.isEmpty) {
-      return const Center(child: Text('Search for movies'));
+      return const Center(child: Text('buscar peliculas'));
     }
 
     final tmdbService = Provider.of<TmdbService>(context);
